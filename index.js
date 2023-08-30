@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const { Triangle, Circle, Square } = require('./lib/shape.js')
 
 
 function init() {
@@ -29,8 +30,11 @@ function init() {
         
         switch(response.shape) {
             case 'Triangle':
+                const triangle = new Triangle(response.text, response.textColor, response.shape, response.shapeColor);
             case 'Circle':
+                const circle = new Circle(response.text, response.textColor, response.shape, response.shapeColor);
             case 'Square':
+                const square = new Square(response.text, response.textColor, response.shape, response.shapeColor);
         }
     })
 }
