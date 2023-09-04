@@ -1,4 +1,4 @@
-# Heroic (a terminal based SVG logo generator)
+# SVG-logo-maker
 
 ## Description
 
@@ -9,9 +9,9 @@ I built this SVG generator using the inquirer package and jest for testing. With
 
 Clone the repository using one of the options below          
         
-HTTPS - https://github.com/JaKrau/Heroic.git        
-SSH - git@github.com:JaKrau/Heroic.git        
-GitHuB CLI - gh repo clone JaKrau/Heroic       
+HTTPS - https://github.com/JaKrau/SVG-logo-maker.git        
+SSH - git@github.com:JaKrau/SVG-logo-maker.git        
+GitHuB CLI - gh repo clone JaKrau/SVG-logo-maker       
 
 
 ## Usage
