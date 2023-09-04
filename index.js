@@ -12,7 +12,7 @@ function init() {
         },
         {
             type: 'input',
-            message: 'Enter a color by name (using lowercase characters) for text color:',
+            message: 'Enter a color by name, using lowercase characters, or with the hex code for text color:',
             name: 'textColor',
             validate: logoColorValidator
         },
@@ -24,7 +24,7 @@ function init() {
         },
         {
             type: 'input',
-            message: 'Enter a color, by keyword or hexadecimal code, for shape color:',
+            message: 'Enter a color by name, using lowercase characters, or with the hex code for shape color:',
             name: 'shapeColor',
             validate: logoColorValidator
         },
